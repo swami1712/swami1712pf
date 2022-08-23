@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Silkscreen&family=Source+Code+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.intro {
+  padding: 20%;
+}
+.hello {
+  font-size: 4rem;
+  font-family: "source code pro", monospace;
+}
+.name,
+#feature-text {
+  font-size: 2rem;
+  font-family: "silkscreen", cursive;
+}
+.input-cursor {
+  color: black;
+  font-size: 2rem;
+}
+.about {
+  font-size: 25px;
+  font-family: "fira-sans", sans-serif;
+}
+.buttons {
+  margin: 20px 15px 0px 0px;
+}
+.col-lg-6 .myImg {
+  width: 100%;
+}
+
+@media (min-width) {
+}
