@@ -1,331 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swami Mahale</title>
-    <!-- CSS only -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-      crossorigin="anonymous"
-    />
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="wrapper-container">
-      <main>
-        <div class="container-fluid">
-          <section id="top">
-            <nav class="navbar navbar-fixed-top navbar-expand-lg">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">Swami Mahale</a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#top"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#myCP">myCP</a>
-                    </li>
 
-                    <li class="nav-item">
-                      <a href="#ProjectsBody" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="#contactMe" class="nav-link">ContactMe</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="intro">
-                  <h1 class="name" id="sentence">
-                    <div class="hello">Hello!</div>
-                    I'm Swami Mahale,<br />
-                    <span id="feature-text"></span>
-                    <span class="input-cursor"></span><br />
-                  </h1>
-                  <a
-                    href="myPdfs/Swami-Mahale-resume.pdf"
-                    class="btn buttons"
-                    download
-                    >DownloadCV</a
-                  >
-                </div>
-                <div class="newBtn"></div>
-              </div>
-              <div class="col-lg-6">
-                <img class="myImg" src="images/D.png" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swami Mahale</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="wrapper-container">
+    <main>
+      <div class="container-fluid">
+        <section id="top">
+          <nav class="navbar navbar-fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Swami Mahale</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#top">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#myCP">myCP</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="#ProjectsBody" class="nav-link">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#contactMe" class="nav-link">ContactMe</a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </section>
-
-          <section id="ProjectsBody">
-            <h2>Projects</h2>
-            <div class="row mx-auto my-auto">
-              <div
-                id="recipeCarousel"
-                class="carousel slide w-100"
-                data-ride="carousel"
-              >
-                <div class="carousel-inner w-100" role="listbox">
-                  <div class="carousel-item active">
-                    <div class="col-md-4">
-                      <div class="card mb-2">
-                        <h4 class="card-header">
-                          adBlocker - chrome extension
-                        </h4>
-                        <div class="card-body">
-                          <span class="myBadge1">Javascript</span>
-                          <div class="projectDescri">
-                            <strong>Description-</strong> Extension that block
-                            irritating ads, devloped using javascript.
-                          </div>
-                          <div class="projectBtn">
-                            <a
-                              href="https://github.com/swami1712/ad-blocker-extension"
-                              class="links"
-                              >Github</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card mb-2">
-                        <h4 class="card-header">Ensemble model</h4>
-                        <div class="card-body">
-                          <div class="projectDescri">
-                            <strong>Description- </strong>This is our academic
-                            project in which we are going to implement an
-                            ensemble model to prevent DoS attack using DL
-                            algorithms(RNN and CNN)
-                          </div>
-                          <div class="projectBtn">
-                            <a href="" class="links">Github</a>
-                            <a href="" class="links">Live</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="carousel-item">
-                    <div class="col-md-4">
-                      <div class="card mb-2">
-                        <h4 class="card-header">diceGame</h4>
-                        <div class="card-body">
-                          <div class="col-lg-6">
-                            <span class="myBadge1">Javascript</span>
-                          </div>
-                          <div class="projectDescri">
-                            <strong>Description-</strong> A javascript based
-                            simple dice game.
-                          </div>
-                          <div class="projectBtn">
-                            <a
-                              href="https://github.com/swami1712/dicee-game"
-                              class="links"
-                              >Github</a
-                            >
-                            <a
-                              href="https://swami1712.github.io/dicee-game/"
-                              class="links"
-                              >Live</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <a
-                  class="carousel-control-prev w-auto"
-                  href="#recipeCarousel"
-                  role="button"
-                  data-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
-                    aria-hidden="true"
-                  ></span>
-                </a>
-                <a
-                  class="carousel-control-next w-auto"
-                  href="#recipeCarousel"
-                  role="button"
-                  data-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon bg-dark border border-dark rounded-circle"
-                    aria-hidden="true"
-                  ></span>
-                </a>
+          </nav>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="intro">
+                <h1 class="name" id="sentence">
+                  <div class="hello">Hello!</div>
+                  I'm Swami Mahale,<br />
+                  <span id="feature-text"></span>
+                  <span class="input-cursor"></span><br />
+                </h1>
+                <a href="myPdfs/Swami-Mahale-resume.pdf" class="btn buttons" download>DownloadCV</a>
               </div>
+              <div class="newBtn"></div>
             </div>
-            <!-- -->
-          </section>
-          <section id="myCP">
-            <h2>myCP</h2>
+            <div class="col-lg-6">
+              <img class="myImg"
+                src="https://img.freepik.com/premium-vector/programmer-coder-concentrated-working-project-developing-programming-coding-technologies_569013-338.jpg"
+                alt="" />
+            </div>
+          </div>
+        </section>
 
-            <table class="table table-striped" style="overflow: scroll">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Platform</th>
-                  <th scope="col">Username</th>
-                  <th scope="col">Rating</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>
-                    <img
-                      class="cpLogo"
-                      src="https://cdn.codechef.com/images/cc-logo.svg"
-                      alt=""
-                    />
-                  </td>
-                  <td>
-                    <a href="https://www.codechef.com/users/swami1712"
-                      >swami1712</a
-                    >
-                  </td>
-                  <td>1246(1★)</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>
-                    <img
-                      class="cpLogo"
-                      src="https://codeforces.org/s/16571/images/codeforces-sponsored-by-ton.png"
-                      alt=""
-                    />
-                  </td>
-                  <td>
-                    <a href="https://codeforces.com/profile/swami1712"
-                      >swami1712</a
-                    >
-                  </td>
-                  <td>570(newbie)</td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-          <section id="contactMe">
-            <h2>ContactMe</h2>
-            <div class="contactMeForm">
-              <div class="row">
-                <div class="col-lg-5">
-                  <img class="myImg" src="images/Mention-amico.png" alt="" />
-                </div>
-                <div class="col-lg-7">
-                  <div class="card">
-                    <div class="card-body">
-                      <form
-                        action="mailTo:swamimahale1712@gmail.com"
-                        method="post"
-                        enctype="multipart/form-data"
-                      >
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Your email</label>
-                          <input
-                            type="email"
-                            class="form-control"
-                            id="exampleInputEmail1"
-                            aria-describedby="emailHelp"
-                            placeholder="Enter email"
-                          />
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Subject</label>
-                          <textarea
-                            name="message"
-                            type="text"
-                            class="form-control"
-                            id="exampleInputPassword1"
-                            placeholder="subject"
-                            rows="6"
-                          ></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary sndmsg">
-                          Send message
-                        </button>
-                      </form>
-                    </div>
+        <hr>
+
+        <section id="ProjectsBody">
+          <h2>Projects</h2>
+
+
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">myToDo</div>
+
+                <div class="card-body">
+                  <b>Description: </b>A todo list app made using javascript.
+                  <div class="projectBtn">
+                    <a href="https://github.com/swami1712/myToDo"><button class="btn btn-primary">github</button></a>
+                    <button class="btn btn-primary">live</button>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section id="footer">
-            <div class="links">
-              <span
-                ><a href="https://in.linkedin.com/in/swami-mahale-647331202"
-                  ><img src="images/linkedin.png" class="logos" alt="" /></a
-              ></span>
-              <span
-                ><a href="https://github.com/swami1712"
-                  ><img src="images/github-sign.png" class="logos" alt="" /></a
-              ></span>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">Adblocker</div>
+                <div class="card-body">
+                  <b>Description: </b>Extension that block irritating ads, devloped using javascript.
+                  <div class="projectBtn">
+                    <a href="https://github.com/swami1712/ad-blocker-extension"><button
+                        class="btn btn-primary">github</button></a>
+
+                    <button class="btn btn-primary">live</button>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="aboutMe">@swamimahale, 2022</div>
-          </section>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">TextUtils</div>
+                <div class="card-body">
+                  <b>Description: </b>It's a simple reactjs app which performs various operations such as copy, clear,
+                  capitalize etc.
+                  <div class="projectBtn">
+                    <a href="https://github.com/swami1712/textUtils"><button class="btn btn-primary">github</button></a>
+                    <button class="btn btn-primary">live</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <div class="card-header">NewsBar</div>
+                <div class="card-body">
+                  <b>Description: </b>A reactjs news app which displays all the current news across the world, also It
+                  consists of different categories of the news.
+                  <div class="projectBtn">
+                    <a href="https://github.com/swami1712/newsBar"><button class="btn btn-primary">github</button></a>
+
+                    <button class="btn btn-primary">live</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- -->
+  </section>
+
+  <hr>
+
+  <section id="myCP">
+    <h2>myCP</h2>
+
+    <table class="table table-striped" style="overflow-x: scroll">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Platform</th>
+          <th scope="col">Username</th>
+          <th scope="col">Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>
+            <img class="cpLogo" src="https://cdn.codechef.com/images/cc-logo.svg" alt="" />
+          </td>
+          <td>
+            <a href="https://www.codechef.com/users/swami1712">swami1712</a>
+          </td>
+          <td>1246(1★)</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>
+            <img class="cpLogo" src="https://codeforces.org/s/16571/images/codeforces-sponsored-by-ton.png" alt="" />
+          </td>
+          <td>
+            <a href="https://codeforces.com/profile/swami1712">swami1712</a>
+          </td>
+          <td>570(newbie)</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr>
+
+  <section id="contactMe">
+    <h2>ContactMe</h2>
+    <div class="contactMeForm">
+      <div class="row">
+        <div class="col-lg-5">
+          <img class="myImg" src="images/Mention-amico.png" alt="" />
         </div>
-      </main>
+        <div class="col-lg-7">
+          <div class="card">
+            <div class="card-body">
+              <form action="mailTo:swamimahale1712@gmail.com" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Your email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email" />
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Subject</label>
+                  <textarea name="message" type="text" class="form-control" id="exampleInputPassword1"
+                    placeholder="subject" rows="6"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary sndmsg">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="index.js"></script>
-  </body>
+  <hr>
+
+  <section id="footer">
+    <div class="links">
+      <span><a href="https://in.linkedin.com/in/swami-mahale-647331202"><img src="images/linkedin.png" class="logos"
+            alt="" /></a></span>
+      <span><a href="https://github.com/swami1712"><img src="images/github-sign.png" class="logos" alt="" /></a></span>
+    </div>
+    <div class="aboutMe">@swamimahale, 2022</div>
+  </section>
+
+  </div>
+  </main>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

@@ -30,6 +30,13 @@ th {
   border: 1px solid black;
 }
 
+hr{
+  /* text-align:center; */
+  height: 3px;
+  width: 40%;
+  margin: 30px auto;
+
+}
 .wrapper-container {
   max-width: 1540px;
   overflow: hidden;
@@ -47,7 +54,8 @@ th {
   padding: 20%;
 }
 .navbar {
-  background-color: rgb(31 255 168);
+  /* background-color: #ffffff; */
+  background-image: linear-gradient(98deg, white, #FFEB3B);
 }
 .navbar {
   z-index: 1;
@@ -118,27 +126,39 @@ th {
 
 #ProjectsBody {
   padding: 7% 15%;
-  background-color: #90ffd8;
+  background-color: rgb(255, 255, 255);
 }
 .card {
-  margin: 15px;
   height: 24rem;
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
+  margin:10px;
+  border-radius:15px;
 }
 .card-header {
-  background-color: rgb(31 255 168);
+  font-size:1.2rem;
+  text-align:center;
+  background-color: rgb(255, 233, 69);
+  /* background-image: linear-gradient(98deg, white, #FFEB3B); */
   color: black;
   padding: 20px;
   margin-bottom: 37px;
   box-sizing: border-box;
+  border-bottom:1px solid;
+  /* border:0px; */
 }
 .links {
   padding: 0 5px;
 }
+.btn{
+  margin-right:10px;
+}
 .projectBtn {
   position: absolute;
+  top: 333px;
   left: 15px;
-  bottom: 10px;
+  display:flex;
+  /* margin-right:10px; */
 }
 /* .projectDescri {
   text-align: center;
@@ -211,7 +231,7 @@ th {
 
 #contactMe {
   padding: 7% 15%;
-  background-color: #90ffd8;
+  background-color: rgb(255, 255, 255);
 }
 
 label {
@@ -222,6 +242,12 @@ label {
 .sndmsg {
   position: relative;
   top: 12px;
+}
+
+textarea.form-control, .form-control {
+  min-height: calc(1.5em + 0.75rem + 2px);
+  background-color: rgb(255, 255, 255);
+  border:1px solid;
 }
 
 /* section footer */
